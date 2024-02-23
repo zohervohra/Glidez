@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="">
+    <div class="flex flex-col min-h-screen">
+
+        <!-- NAVBAR -->
+        <header class="flex items-center justify-between p-4 border-b lg:gap-8 lg:p-6 " style="position:sticky;">
+            <div class="flex items-center gap-4">
+                <a class="flex items-center gap-2 font-semibold" href="#">
+                    <img src="logo.svg"  style="height: 35px;">
+                    <span class="text-xl font-bold  bg-gradient-to-r from-zinc-800 via-zinc-700 to-zinc-600  inline-block text-transparent bg-clip-text max-[290px]:hidden">
+                        Glidez
+                    </span>
+                </a>
+            </div>
+            <nav class="max-sm:hidden gap-4 text-base lg:flex">
+                <a class="px-1 font-medium  hover:underline underline-offset-8" href="#">
+                    Home
+                </a><a class=" px-1 font-medium hover:underline underline-offset-8" href="#">
+                    Products
+                </a><a class=" font-medium px-1  hover:underline underline-offset-8" href="#">
+                    About
+                </a><a class=" px-1 font-medium hover:underline underline-offset-8" href="#">
+                    Contact
+                </a></nav>
+            <div class="flex items-center gap-4">
+                <div>
+                    <form class="  flex items-center gap-2 lg:ml-auto max-[780px]:hidden  max"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="h-4 w-4 text-gray-500 dark:text-gray-400">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </svg><input
+                            class=" flex h-10 rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full placeholder-gray-500 appearance-none bg-white dark:placeholder-gray-400 dark:bg-gray-100"
+                            placeholder="Search" type="search"></form>
+                </div>
+
+                <button
+                    class=" inline-flex items-center justify-center whitespace-nowrap text-sm font-medium border border-input bg-background  h-9 rounded-md px-3 lg:ml-auto bg-gray-000 hover:bg-gray-200">
+                    Login
+                </button>
+                <button
+                    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium border border-input bg-background  h-9 rounded-md px-3 lg:ml-auto bg-slate-900 hover:bg-slate-800 text-gray-200">
+                    Sign up
+                </button>
+            </div>
+        </header>
+        <main class="flex-1">
+            <h1
+                class="text-3xl font-bold tracking-tighter p-4 bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-600 inline-block text-transparent bg-clip-text">
+                Discover the Latest Trends in Footwear
+            </h1>
+
+
+            <!-- ITEMS -->
+            <div class="grid gap-6 lg:gap-12 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 p-4 lg:p-8 ">
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8105650c-249e-469f-aeef-fefcca2083a6/jordan-spizike-low-shoes-pBZk7c.png"
+                          style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Jordan Spizike Low
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/12706ba5-4af0-49be-a296-dd8756b457ee/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png"
+                        style="height:230px;width:290px; ">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Air Jordan Legacy 312 Low PSG
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/902b0fb0-ab1e-4213-ab91-3e08c124093c/jordan-max-aura-5-shoes-ZBZ4Pz.png"
+                         style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Jordan Max Aura 5
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png"
+                         style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Air Jordan Legacy 312 Low
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/dd778eb4-8a81-4781-8bc8-0347df7844ae/jumpman-two-trey-shoes-rhmBzG.png"
+                        style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Jumpman Two Trey
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/12f2a361-6a06-42b4-845e-72786c4f60e4/luka-2-pitch-pf-basketball-shoes-DJMb7w.png"
+                        style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Luka 2 'The Pitch' PF
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a148d8e2-5f6e-44de-9b10-688462420b63/jordan-retro-6-g-nrg-golf-shoes-RbHqGx.png"
+                        style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Jordan Retro 6 G NRG
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img alt="Product 1" class=" overflow-hidden rounded-lg object-cover border dark:border-gray-100"
+                        src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac52595a-4691-4479-b526-93c184ecdd05/air-jordan-1-mid-se-shoes-CF3K5m.png"
+                          style="height:230px;width:290px;">
+                    <div class="flex flex-col gap-1.5 items-center">
+                        <h2 class="font-semibold text-base font">
+                            Air Jordan 1 Mid SE
+                        </h2>
+                        <p class="font-semibold text-sm">
+                            $49.99
+                        </p>
+                    </div class="">
+                    <a class="flex items-center justify-center h-8 rounded-lg  bg-slate-800 hover:bg-slate-700 text-sm  p-2 px-3 font-medium text-gray-50"
+                        href="#">
+                        Buy Now!
+                    </a>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="flex items-center justify-center gap-4 h-14 p-4 border-t text-sm dark:border-gray-800"><span
+                class="text-gray-500 dark:text-gray-400">
+                Copyright © 2023. All rigths reserved</span><span class="text-gray-500 dark:text-gray-400">
+                Made by Glidez Inc</span></footer>
+    </div>
+</body>
+
+</html>
