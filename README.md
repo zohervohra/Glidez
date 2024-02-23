@@ -1,2 +1,2 @@
 # Glidez 
-Shoe website created using ShadCN components
+Shoes website created using ShadCN components
